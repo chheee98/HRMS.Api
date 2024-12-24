@@ -1,0 +1,56 @@
+# Ignore JetBrains IDEs (e.g., Rider)
+.idea/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+/packages/
+riderModule.iml
+/_ReSharper.Caches/
+
+# Ignore Visual Studio Code workspace settings
+.vscode/
+.vscode/*
+
+# Ignore .NET Build Artifacts
+bin/
+obj/
+out/
+*.dll
+*.pdb
+*.exe
+*.app
+*.log
+*.cache
+
+# Ignore Secrets
+HRMS.Api/appsettings*.json
+.env
+
+# Ignore Node Modules (if using front-end with API)
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Ignore Docker
+*.stackdump
+*.env
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore temporary or generated files
+*.vs
+*.lock.json
+*.tmp
+
+# Ignore Rider-specific files
+*.iml
+.idea_modules/
+
+# Ignore by default
+Logs/
+*.patch
+*.class
+*.swp

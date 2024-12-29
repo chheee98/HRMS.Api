@@ -13,6 +13,7 @@ public static class AppServiceCollectionsExtensions
         
         services.AddScoped<IEmployeeService, EmployeeService>();
         services.AddScoped<ILeaveTypeService, LeaveTypeService>();
+        services.AddScoped<ILeaveService, LeaveService>();
 
         return services;
     }

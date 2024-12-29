@@ -13,4 +13,6 @@ public class Employee
     public DateTime HireDate { get; set; }
     public decimal Salary { get; set; }
     public bool IsActive { get; set; }
+
+    public string FullName => $"{FirstName} {LastName}";
 }
